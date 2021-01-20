@@ -24,8 +24,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-NestJS is a framework,mainly used in building server-side applications based on Node.js.It supports most of the databases like PostgreSQL, MongoDB, MySQL.
+- [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- NestJS is a framework,mainly used in building server-side applications based on Node.js.It supports most of the databases like PostgreSQL, MongoDB, MySQL.
+- It is a Powerful command line interface(CLI) which enhances the productivity and development.
+- It is open-source(MIT license) and easy for unit-testing applications.
+- With NestJS you can build Rest API’s, MVC applications, microservices, GraphQL applications, Web Sockets or CLI’s and CRON jobs.
+- It uses the best of Node.js, TypeScript, and bullet-proof architectural patterns.
+- The structure of this NESI app is mostly based on Angular.
 
 ## Installation
 
@@ -69,7 +74,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## References
 - Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- NEST API [All about NestJS](https://selleo.com/blog/why-choose-nest-js-as-your-backend-framework)
 - Guidelines - [Steps to create Project](https://nestjs.com/)
 
 ## License
