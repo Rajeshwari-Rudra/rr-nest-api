@@ -66,5 +66,6 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "engines": {"node": "15.x"}
 }
