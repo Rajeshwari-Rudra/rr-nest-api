@@ -25,6 +25,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+NestJS is a framework,mainly used in building server-side applications based on Node.js.It supports most of the databases like PostgreSQL, MongoDB, MySQL.
 
 ## Installation
 
@@ -58,15 +59,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Links
+* [Source link]([https://github.com/Rajeshwari-Rudra/rr-nest-api)
+* [App link](https://rr-nest-api.herokuapp.com/)
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+## References
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
+- Guidelines - [Steps to create Project](https://nestjs.com/)
 
 ## License
 
