@@ -60,7 +60,7 @@ $ npm run test:cov
 ```
 
 ## Links
-* [Source link]([https://github.com/Rajeshwari-Rudra/rr-nest-api)
+* [Source link](https://github.com/Rajeshwari-Rudra/rr-nest-api)
 * [App link](https://rr-nest-api.herokuapp.com/)
 
 ## Support
