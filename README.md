@@ -9,6 +9,7 @@
 - With NestJS you can build Rest API’s, MVC applications, microservices, GraphQL applications, Web Sockets or CLI’s and CRON jobs.
 - It uses the best of Node.js, TypeScript, and bullet-proof architectural patterns.
 - The structure of this NESI app is mostly based on Angular.
+- Add a halderbars named 'hbs' template to repo.
 
 ## Installation
 
@@ -41,10 +42,20 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Adding Resources
+- From project directory,run "nest generate resource quest"  
+- Select REST (hit return) and Y (generate entry pts). 
+- There is an interface and a data transfer object(dto). 
+- Use npm i --save @nestjs/mapped-types to install mapped-types
+- Add this resource folder "quest" to repo and then commit.
+- Run the hosted app on Heroku after pushing the changes to GitHub repo.
+
 
 ## Links
 * [Source link](https://github.com/Rajeshwari-Rudra/rr-nest-api)
 * [App link](https://rr-nest-api.herokuapp.com/)
+* [App link - about](https://rr-nest-api.herokuapp.com/about)
+* [App link -quest](https://rr-nest-api.herokuapp.com/quest)
 
 ## Support
 
