@@ -7,6 +7,7 @@ import { LocationModule } from './location/location.module';
 import { TypeOrmModule } from '@nestjs/typeorm'; 
 import { User } from './user/entities/user.entity';
 import { Location } from './location/entities/location.entity';
+import { Connection } from 'typeorm';
 
 
 @Module({
@@ -23,4 +24,6 @@ import { Location } from './location/entities/location.entity';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(private connection: Connection) {}
+}
