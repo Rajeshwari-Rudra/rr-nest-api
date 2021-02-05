@@ -18,18 +18,6 @@ async function bootstrap() {
 }
 bootstrap();
 
-createConnection({
-  type: "mysql",
-  host: "localhost",
-  port: 3306,
-  username: "root",
-  password: "root",
-  database: "test",
-  entities: [
-    User, Location, Quest
-  ],
-  synchronize: true,
-  logging: false
-}).then(connection => {
+createConnection().then(connection => {
   // here you can start to work with your entities
 }).catch(error => console.log(error));
