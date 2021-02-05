@@ -2,6 +2,10 @@ import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { join } from 'path';
 import { AppModule } from './app.module';
+import { createConnection } from "typeorm";
+import { User } from './user/entities/user.entity';
+import { Quest } from './quest/entities/quest.entity';
+import { Location } from './location/entities/location.entity';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -13,3 +17,19 @@ async function bootstrap() {
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
+
+createConnection({
+  type: "mysql",
+  host: "localhost",
+  port: 3306,
+  username: "root",
+  password: "root",
+  database: "test",
+  entities: [
+    User, Location, Quest
+  ],
+  synchronize: true,
+  logging: false
+}).then(connection => {
+  // here you can start to work with your entities
+}).catch(error => console.log(error));

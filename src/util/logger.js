@@ -5,19 +5,6 @@
  *
  * Write level `error` and below to `error.log`
  * Write level `info` and below to `combined.log`
- *
- * @link https://github.com/winstonjs/winston
- * @link https://www.npmjs.com/package/winston
- *
- * These default levels are available:
- *   error: 0,
- *   warn: 1,
- *   info: 2,
- *   http: 3,
- *   verbose: 4,
- *   debug: 5,
- *   silly: 6
- *
  * @author Rajeshwari Rudravaram <s538361@nwmissouri.edu>
  *
  */
